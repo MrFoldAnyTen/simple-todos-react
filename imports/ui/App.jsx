@@ -59,7 +59,7 @@ class App extends Component {
     return (
       <div className="container">
         <header>
-          <h1>Todo List ({this.props.incompleteCount})</h1>
+          <h1>Dylans Todo List ({this.props.incompleteCount})</h1>
 
           <label className="hide-completed">
             <input
@@ -68,7 +68,7 @@ class App extends Component {
               checked={this.state.hideCompleted}
               onClick={this.toggleHideCompleted.bind(this)}
             />
-            Hide Completed Tasks
+          Hide Completed
           </label>
 
           <AccountsUIWrapper />
